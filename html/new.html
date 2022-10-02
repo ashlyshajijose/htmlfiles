@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+            
+        </head>
+        <body style="background-color: black;">
+           <h3 style="color: blue; text-align: center;">javascript</h3>
+           <div class="cal" style="text-align: center; padding-bottom: 100px;">
+           <label for="firstno" style="color: white;">first no</label>
+           <input type="text" id="one">
+           <label for="secondno" style="color: white;">second no</label>
+           <input type="text" id="two">
+           <input type="text" id="output">
+           <button type="button" onclick="operators()">result</button></div>
+           <script>
+           function operators(){
+        var a,b,c;
+        a=Number(document.getElementById("one").value);
+        b=Number(document.getElementById("two").value);
+        c=a+b;
+         document.getElementById("output").value=c;
+
+           }
+        </script>
+        </body>
+        
+    
+</html>

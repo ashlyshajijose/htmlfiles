@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+                .nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+.signin{
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    
+}
+.active{
+    background-color: green;
+}
+.pageactive{
+    background-color: green;
+}
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+            body{
+                background-image: url("https://img1.goodfon.com/wallpaper/nbig/1/4d/shema-tehnologii-biznes-ruka.jpg");
+                background-repeat: repeat;
+                background-size: 100%;
+            }
+        </style>
+
+
+    </head>
+    <body>
+        <div class="nav">
+            <a  
+             href="home.html">HOME</a>
+            <a href="newregister.html">SIGNUP</a>
+            <a class="active" href="signin.html">SIGNIN</a>
+            <a href="contactus.html">CONTACTUS</a>
+            <a href="aboutus.html">ABOUTUS</a>
+          
+
+
+        </div><br><br>
+          <div class="signin">
+            <form>
+                <fieldset>
+                    <legend>Signin</legend>
+                    <h1>Sign in</h1><br>
+                <label for="name"></label> Name: </label><br><br>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="password">Password: </label><br><br>
+                <input type="text" id="password" name="password"><br><br>
+               
+                <button type="submit" value="submit">signin</button>
+               
+                
+                </fieldset>
+                </form>
+
+          </div>
+          <div class="center">
+            <div  
+            class="pagination">
+              <a  href="#">&laquo;</a>
+              <a  href="home.html">1</a>
+              <a href="newregister.html">2</a>
+              <a class="pageactive" href="signin.html">3</a>
+              <a href="contactus.html">4</a>
+              <a href="aboutus.html">5</a>
+              
+              <a href="#">&raquo;</a>
+            </div></div>
+           
+       
+
+    </body>
+</html>
